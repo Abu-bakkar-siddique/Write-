@@ -1,0 +1,14 @@
+name: Tests # name of the Action 
+on: push # when is the action supposed to run 
+
+jobs:
+  test_project:
+
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Run unit tests
+      run: |
+        pip3 install --user django psycopg2-binary
+        python3 manage.py test
+        

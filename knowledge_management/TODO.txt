@@ -1,0 +1,66 @@
+
+
+                                            :_____________________GLOBALS_____________________:
+    1. NOT everyone is on the platform to edit docs, majority of the audience is there to read the articles, that are reviewed and written
+    with collaboration of experts.
+
+    2. Joining a group to edit a doc is a big deal, it must not be easy for everyone to hop in.
+    3. 
+    # SPECS : 
+
+    ## ROLES AND PERMISSIONS
+
+        - Classroom Moderators(creator is the first mod, may select other users as mods)
+        - Document maintainer (normally the creator of the document, but the creator may decide to add another user as the maintainer)
+        - Document Editors (A group of peeple who are allowed by the permission of the maintainer to edit the document)
+        FLOW:
+            After making changes, the editors can create a sort of 'pull request' for the maintainer(s) to accept(or reject) and 'merge'
+            into the main document.
+
+    ## CLASSROOMS
+        - Each Classroom will have certain tags(subjects), a 'motive' written in fewest possible words describing exactly what the users 
+        discuss in there.
+
+        - Each Classroom will have a reputaion score, (simply some sort of votes system).
+
+        - An Open feed where a articles(documents) that are complete are published and displayed in the feed(same goes here, comments, upvotes
+        sharing in other Classroom and with friends).
+
+        - Moderators can set rules:
+            In chat interviews with the users who want to join a classroom
+            Set criteria, having certain number of upvotes, Education, number of articles published.
+
+        - Withen each classroom a user can work on ONLY one article at once to keep things narrow focused BUT can read others.
+        - The article user is working on will be displayed on thier profile
+
+        - some classrooms will be SPECIFIC to a discussion that is the 'document' that the members are working on, the owner/creator/Moderators
+          of the group may decide to conclude the document and dismantle the group with auto publication of the document OR set a pole 
+          for the document conclusion and being published to the general feed.
+
+    ## READERS FACILITY
+        - ON WORD select(options should pop up):
+            - synonyms
+            - translate
+        
+        - ON SENTENCE highlight:
+            - simplify (using AI)
+
+    ## MESSAGES
+        - reply trees
+        - upvotes
+        - pin messages 
+        
+        - (This feature is optional for the mods to enable)Each user has a limit to how many messages they can share(given by the mods or by reputaion).
+        this is to make sure that whatever is said is meaningful and relevent and there is no fuck around in chat.
+
+        - Implement a **progressive message limit** where new users have a restricted number of messages, but the limit increases based on contributions.  
+        - Allow moderators to **manually upgrade** users to "unlimited mode" if they prove their credibility.  
+        - Introduce a **peer or moderator approval system** where meaningful messages increase a user's limit over time.  
+        - Make the message limit an **optional feature** that moderators can enable or disable per discussion room.
+        - mods can set a user to reader-only 
+
+
+TODO:
+    # users implementation (adhere to what i wrote above, assign roles and permissons)
+    # model and design the version control of documents
+    # work on roles and permissions
